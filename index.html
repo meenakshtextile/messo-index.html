@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Fashion, Electronics, Home &amp; More | Meesho</title>
+    <link rel="icon" href="./7c2ed668416881d16615000622f6b0ad.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+            font-weight: 500;
+            color: rgb(53, 53, 67);
+            /* For mobile */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+        }
+
+        .header {
+            display: inline-flex;
+            height: 72px;
+            width: 100%;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+            white-space: nowrap;
+
+        }
+
+        .logo {
+            width: 150px;
+            margin-left: 35px;
+            margin-top: 0px;
+        }
+
+        .logo:hover {
+            cursor: pointer;
+
+        }
+
+        .search {
+            width: 601px;
+
+            text-align: center;
+          color: rgb(102, 72, 129);
+            cursor: no-drop;
+            margin-left: 15px;
+            margin-top: 12px;
+            height: fit-content;
+            
+            
+        }
+
+        .supplier {
+            width: 20%;
+            color: rgb(58, 3, 105);
+            font-size: 19px;
+            cursor: pointer;
+            font-weight: 500;
+            margin-left: 77px;
+            margin-top: 30px;
+            line-height: 20px;
+            font-family: "Mier book";
+        }
+
+        .relation {
+            width: 16.3%;
+             color: rgb(58, 3, 105);
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 25px;
+            margin-top: 30px;
+             line-height: 20px;
+             font-family: "Mier book";
+             font-weight: 500;
+        }
+
+        .profil {
+            width: 16%;
+             color: rgb(58, 3, 105);
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 25px;
+             line-height: 20px;
+            margin-top: 30px;
+             font-family: "Mier book";
+             font-weight: 500;
+        }
+
+        .cart {
+            width: 16%;
+             color: rgb(58, 3, 105);
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 34px;
+             line-height: 20px;
+            margin-top: 30px;
+             font-family: "Mier book";
+             font-weight: 500;
+
+        }
+
+        .cat {
+            height: 50px;
+            width: 100%;
+            background-color: white;
+            display:flex;
+            border-radius: 2px 2px 0px 0px;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            font-weight: 500px;
+            border-radius: 2px 2px 0px 0px;
+            color: black;
+            
+
+        }
+
+        .popular {
+            width: 6.66%;
+            font-size: 16px;
+            cursor: pointer;
+margin-left: -100px;
+margin-right: 0px;
+             
+             
+        }
+
+        .kurti {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 0px;
+            margin-right: 103px;
+        }
+
+        .women {
+            width: 6.66%;
+            cursor: pointer;
+            font-size 16px;
+             margin-left: 0px;
+             margin-right:46px;
+        }
+
+        .lingers {
+            cursor: pointer;
+            width: 6.66%;
+            font-size: 16px;
+               margin-left: 17px;
+               margin-right: 0px;
+        }
+
+        .mens {
+            width: 6.66%;
+            font-size: 16px;
+            cursor: pointer;
+               margin-left: 0px;
+               margin-right: 0px;
+        }
+
+        .kids {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 0px;
+               margin-right: 30px;
+        }
+
+        .home {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 0px;
+               margin-right: 35px;
+        }
+
+        .beautyhealth {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 26px;
+               margin-right: 30px;
+        }
+
+        .accessories {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 56px;
+               margin-right: -53px;
+        }
+
+        .bag {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 47px;
+               margin-right: 10px;
+        }
+
+        .electries {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 12px;
+               margin-right: 0px;
+        }
+
+        .wathes {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 47px;
+               margin-right: 0px;
+        }
+
+        .sports {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 47px;
+               margin-right: 0px;
+        }
+
+        .car {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 47px;
+               margin-right: 0px;
+        }
+
+        .car1 {
+            width: 6.66%;
+            cursor: pointer;
+            font-size: 16px;
+               margin-left: 0px;
+               margin-right: 93px;
+        }
+
+        .banner {
+            width: 100%;
+            background-color: bisque;
+            color: rgb(6, 6, 73);
+
+        }
+
+
+        .three {
+             display: flex;
+            width: 100%;
+            height: 40px;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            border: 1px solid rgb(253, 238, 250);
+            margin-left: -2px;
+            margin-right: 0px;
+            
+            
+        }
+
+
+        .return {
+            width: 33%;
+            color: rgb(97, 5, 139);
+            font-size: 16px;
+            margin-left: 450px;
+            margin-right: 0px;
+            align-items: center;
+        }
+
+        .cash {
+            width: 33%;
+            color: rgb(97, 5, 139);
+            font-size: 16px;
+              margin-left:0px;
+            margin-right:0px;
+            align-items: center;
+            
+        }
+
+        .lowest {
+            width: 33%;
+            color: rgb(97, 5, 139);
+            font-size: 16px;
+              margin-left:0px;
+
+            padding-right: 0px;
+            align-items: center;
+        }
+
+        .low {
+            width: 33%;
+            color: rgb(97, 5, 139);
+            font-size: 250%
+        }
+        .img{
+            display: flex;
+            position: relative;
+            gap: 24px;
+            margin-left: 40px;
+            margin-right: 0px;
+            height: auto;
+            cursor: pointer;
+            
+        }
+
+        .eight {
+            width: 100%;
+            height: 23px;
+            background-color:white;
+            display: inline-flex;
+            text-align: center;
+            align-items: center;
+            gap: 0px;
+            padding-left: 0px;
+            padding-right: opx;
+            font-size: 14px;
+            font-style: normal;
+            cursor: pointer;
+        }
+
+        .gold{
+            border: 2px;
+        }
+        .four{
+            align-items: flex-start;
+        }
+        .og{
+            font-family: "Mier Book";
+            color: rgb(53, 53, 67);
+        }
+        .mg{
+            align-items: center;
+            display: inline-flex;
+            gap: 24px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://www.meesho.com/assets/svgicons/meeshoLogo.svg" style="width: 150px;
+            margin-left: 26px;
+            margin-top: 16px;">
+            </div>
+            <div class="search"><input type="search"
+                    style="width: 601px ; margin-left: 45px;height:50px;margin-top: -3px;"
+                    placeholder="Try Saree, Kurti or Search by Product Code"></div>
+            <div class="supplier">Become a Supplier</div>
+            <div class="relation">Investor Relations</div>
+            <a href="C:\Users\user\Desktop\practices\logins.html"><div class="profil">profile</div></a>
+            <div class="cart">cart</div>
+        </div>
+        <div class="cat">
+            <div class="popular">popular</div>
+            <div class="kurti">kurti,saree & lehenga</div>
+            <div class="women">women western</div>
+            <div class="lingers">lingerie</div>
+            <div class="mens">men</div>
+            <div class="kids">kids & toys </div>
+            <div class="home">home & kitchen</div>
+            <div class="beautyhealth">beauty & health</div>
+            <div class="accessories"> jewellery&accessories</div>
+           <!-- <div class="bag">bags&Footwear</div>
+            <div class="electries">electries</div>
+            <div class="wathes">watches</div>
+            <div class="sports">sports</div>
+            <div class="car">car</div>
+            <div class="car1">officesup</div>-->
+        </div>
+        <div class="banner">
+            <!-- <img src="download (12).jfif" width="260,100px"> 
+            <img src="download (12).jfif" width="260,100px">
+            <img src="download (12).jfif" width="260,100px">
+            <img src="download (12).jfif" width="260,100px">-->
+            <img src="https://images.meesho.com/images/marketing/1772432149503.webp" style="margin: 0; padding: 0;width: 100%;">
+
+        </div>
+        <div class="three"><div class="three 1">
+            <div class="return">7 days return</div>
+            <div class="cash">cash on delivery</div>
+            <div class="lowest">lowes prices</div></div>
+        </div>
+        <div class="img">
+                        <div class="women1+"><img src="https://images.meesho.com/images/marketing/1744634654837.webp" style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px;"></div>
+                        <div class="women2+"><img src="https://images.meesho.com/images/marketing/1744634725496.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px;"></div>
+                        <div class="women3+"><img src="https://images.meesho.com/images/marketing/1744634780426.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px;"></div>
+                        <div class="women3+"><img src="https://images.meesho.com/images/marketing/1744634814643.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 17px;margin-bottom: 0px;"></div>
+                        <div class="women3+"><img src="https://images.meesho.com/images/marketing/1744634835018.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px; "></div>
+                        <div class="women3+"><img src="https://images.meesho.com/images/marketing/1744634871107.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px; "></div>
+                        <div class="women3+"><img src="https://images.meesho.com/images/marketing/1744634909968.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px; "></div>
+                        <div class="women3+"><img src="https://images.meesho.com/images/marketing/1744634937295.webp"style="width: 140px; margin-left:0px; margin-right: 0px; margin-top: 0px;margin-bottom: 0px; "></div>
+
+
+        </div>
+
+        <div class="eight">
+            <div class="women1" style="margin-left: 70px; margin-right: 0px;"> Ethnic Wear</div>
+            <div class="women2" style="margin-left: 75px; margin-right: 0px;">Western Dresses</div>
+            <div class="women3" style="margin-left: 76px; margin-right: 0px;">menswear</div>
+            <div class="women4" style="margin-left: 120px; margin-right: 0px;">Footwear</div>
+            <div class="women5" style="margin-left: 96px; margin-right: 0px;">Home Decor</div>
+            <div class="women6" style="margin-left: 96px; margin-right: 0px;">Beauty</div>
+            <div class="women7" style="margin-left: 106px; margin-right: 0px;">Accessories</div>
+            <div class="women8" style="margin-left: 95px; margin-right: 0px;">Grocery </div>
+        </div>
+        
+        <div class="gold">
+            <img src="https://images.meesho.com/images/marketing/1744698265981.webp" style="margin: 0; padding: 0; width: 100%;"> 
+        </div>
+       <!-- <div class="four">
+              <img src="https://images.meesho.com/images/marketing/1744722796811.webp" style="margin-left: 0px; margin-right: 0px;margin-top: 0px;margin-bottom: 0px; width: 114px;">
+            <img src="https://images.meesho.com/images/marketing/1744635113661.webp" style="margin-left: 0px; margin-right: 0px;margin-top: 0px;margin-bottom: 0px; width: 114px;">
+            <img src="https://images.meesho.com/images/marketing/1744635139351.webp" style="margin-left: 0px; margin-right: 0px;margin-top: 0px;margin-bottom: 0px; width: 114px;">
+            <img src="https://images.meesho.com/images/marketing/1744635189897.webp" style="margin-left: 0px; margin-right: 0px;margin-top: 0px;margin-bottom: 0px; width: 114px;">
+</div>-->
+<div class="og">
+    <div class="og1" style="width: 100px; margin-left: 88px;margin-right:0px ;font-size: 32px;font-weight: 500px;white-space: nowrap;">Original brands</div>
+    <div class="og2"style="width: 100px; margin-left: 1118px;margin-right:0px ;margin-top:-37px;font-size: 32px;font-weight: 500px;white-space: nowrap;">view all</div>
+</div>
+<div class="mg">
+    <div class="personal care">
+        <img src="https://images.meesho.com/images/marketing/1744635542873.webp" style="margin-left:72px; margin-right: 0px; padding-left: 0px;padding-right: 0px;">
+    </div>
+    <div class="CARE">
+        <img src="https://images.meesho.com/images/marketing/1744635521751.webp">
+</div>
+<div class="bee">
+    <img src="https://images.meesho.com/images/marketing/1744635497001.webp">
+</div>
+<div class="mobial">
+    <img src="https://images.meesho.com/images/marketing/1744635464683.webp">
+</div>
+<div class="fer">
+    <img src="https://images.meesho.com/images/marketing/1744635432891.webp">
+</div>
+
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>
